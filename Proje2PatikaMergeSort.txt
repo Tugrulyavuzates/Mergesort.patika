@@ -1,0 +1,18 @@
+
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+a)
+Arrayi 2'ye böleriz. Örn:
+
+(16,21,11), (8,12,22)
+
+1. küme (11,16,21)
+2. küme (8,12,22) olarak sıralanır
+iki kümenin de en küçükleri karşılaştırılır küçük olan birinci büyük olan ikinci sıraya
+yerleştirilir. ve geri kalan 3 sayı tek tek kendi aralarında sıralanarak array oluşturulur.
+
+b)Big-o Notation
+O(n*Logn) her case'de çünkü arrayi ikiye bölüp linear arama yapacak
